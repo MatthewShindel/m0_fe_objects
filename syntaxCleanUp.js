@@ -5,13 +5,13 @@ var foods = {
 };
 
 // not sure if I should be adding comments or not, but here goes
-// Moved the body of foods into a seperate line, move ending } to a new line. added  to end;
+// Moved the body of foods into a seperate line, move ending } to a new line. added ; to end
 
 var person = { 
   height: "6 ft",
   weight: "160 lbs" 
 };
-// Seperated key-value pairs into sepreate lines,  move ending } to a new line. added  to end;
+// Seperated key-value pairs into sepreate lines,  move ending } to a new line. added ; to end
 
 var post = {
   imageSrc: "./images/beach.png",
@@ -20,14 +20,14 @@ var post = {
   comments: [] 
 };
 // standarized the indentation of the key-value pairs, more inital key-value pair imageSrc to new line
-// move ending } to a new line. added  to end;
+// move ending } to a new line. added ; to end
 
 
 var post2 = {
-      imageSrc: "./images/holiday-party.png",
-      caption: "What a great holiday party omg",
-      timestamp: "11:37 PM December 31, 2019",
-      numberLikes: 13,
-      comments: []
+  imageSrc: "./images/holiday-party.png",
+  caption: "What a great holiday party omg",
+  timestamp: "11:37 PM December 31, 2019",
+  numberLikes: 13,
+  comments: []
 };
-// moved first { up to same line as decleration, added  to end;
+// moved first { up to same line as decleration, added ; to end, removed unnessecary indentation
