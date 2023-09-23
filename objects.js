@@ -9,25 +9,33 @@ var foods = {
   apples: 23, 
   grapes: 507, 
   eggs: 48
-}
+};
 
 // Write code that prints all of the 'keys' of the foods variable 
 // you created above:
+
+console.log(Object.keys(foods));
 // YOUR CODE HERE
 
 // Write code that prints all of the 'values' of the foods variable 
 // you created above:
+console.log(Object.values(foods));
 // YOUR CODE HERE
 
 // Write code that prints the value of the second food of the foods variable 
 // you created above:
+console.log(foods.grapes);
 // YOUR CODE HERE
 
 // Write code that adds a food to the foods object. 
 // Then, print the updated object:
+foods.oranges = 11;
+console.log(foods);
 // YOUR CODE HERE
 
 
+
+console.log("================");
 // -------------------
 // Part 2: Email
 // -------------------
@@ -38,17 +46,30 @@ var foods = {
 
 // Declare a variable that stores an object. Each key should be an attribute of an email and each
 // value should be some appropriate value for that key. Work to have at least 5 key-value pairs.
+var newEmail = {
+  sender: "matthew@shindel.com",
+  recipient: "joeSchmoe@gmail.com",
+  subject:"Quarterly Report",
+  date: "9/23/23",
+  attachedFile: "quarterReport.xls",
+  emailID: 1239451692354689
+};
+
 
 // Write code that logs your email object to the terminal.
-
+console.log(newEmail);
 
 // Write code that logs all of the 'keys' of the email object 
 // you created above:
+console.log(Object.keys(newEmail));
 // YOUR CODE HERE
 
 // Write code that logs all of the 'values' of the email object 
 // you created above:
+console.log(Object.values(newEmail));
 // YOUR CODE HERE
+
+console.log("===========");
 
 
 // -------------------
@@ -99,3 +120,37 @@ console.log(posts[0]);
 // YOU DO: Create an array of at least 3 EMAIL Objects, using the same 
 // key-value pairs you used in your email Object above.
 // Then, print the email Array to the Terminal.
+
+console.log("================");
+
+var emailsToSend = ["Project for quarter" , "Pictures of Dog", "Things to Buy"];
+
+emailsToSend = [
+  {
+    sender: "matthew@shindel.com",
+    recipient: "joeSchmoe@gmail.com",
+    subject:"Quarterly Project",
+    date: "8/2/23",
+    attachedFile: "QuarterProject.pptx",
+    emailID: 1178760162
+  },
+
+  {
+    sender: "matthew@shindel.com",
+    recipient: "janetMui@shindel.com",
+    subject:"Look at these cute pictures I took",
+    date: "4/23/22",
+    attachedFile: "Daisy.png",
+    emailID: 3978524760162
+  },
+  {
+    sender: "matthew@shindel.com",
+    recipient: "matthew@shindel.com",
+    subject:"Food to Buy at Supermarkey",
+    date: "7/16/23",
+    attachedFile: "GroceryList.png",
+    emailID: 2578072367060162
+  }
+];
+
+console.log(emailsToSend);
